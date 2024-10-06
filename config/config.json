@@ -1,0 +1,18 @@
+{
+  "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "database": {
+    "user": "YOUR_DB_USER",
+    "password": "YOUR_DB_PASSWORD",
+    "host": "localhost",
+    "port": 3306,
+    "dbname": "YOUR_DB_NAME"
+  },
+  "xray_apis": [
+    {
+      "api_url": "http://xray_node_1:port"
+    },
+    {
+      "api_url": "http://xray_node_2:port"
+    }
+  ]
+}
