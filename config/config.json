@@ -1,18 +1,14 @@
 {
-  "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "botToken": "123456789:ABCdefGhijklMNOpqrstUVwxyz1234567890",
   "database": {
-    "user": "YOUR_DB_USER",
-    "password": "YOUR_DB_PASSWORD",
+    "username": "root",
+    "password": "yourpassword",
     "host": "localhost",
     "port": 3306,
-    "dbname": "YOUR_DB_NAME"
+    "dbname": "mydatabase"
   },
-  "xray_apis": [
-    {
-      "api_url": "http://xray_node_1:port"
-    },
-    {
-      "api_url": "http://xray_node_2:port"
-    }
+  "xrayAPIs": [
+    "http://127.0.0.1:10085/jsonrpc",
+    "http://192.168.1.10:10085/jsonrpc"
   ]
 }
